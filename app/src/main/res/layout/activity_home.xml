@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sulavswastha.sulavswastha.Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/navigation_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_toolbar"/>
+
+        <ScrollView
+            android:id="@+id/scrollView_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button_hospital"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+
+                    android:layout_gravity="center"
+
+                    android:text="Hospital"
+                    android:textSize="20dp"
+                    android:textColor="#dbf9f5"
+                    android:background="#20a1a3"
+                    android:textAlignment="center"
+                    android:onClick="onClickHospitalListener"
+                    android:layout_alignBaseline="@+id/button_doctor"
+                    android:layout_alignBottom="@+id/button_doctor"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="11dp" />
+
+                <Button
+                    android:id="@+id/button_doctor"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+
+                    android:layout_gravity="center"
+
+                    android:textSize="20dp"
+                    android:background="#20a1a3"
+                    android:text="Doctor"
+                    android:textColor="#dbf9f5"
+                    android:onClick="onClickDoctorListener"
+                    android:layout_marginTop="16dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="9dp" />
+
+                <Button
+                    android:id="@+id/button_disease"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+
+                    android:layout_gravity="center"
+
+                    android:textSize="20dp"
+                    android:text="Disease"
+                    android:background="#20a1a3"
+                    android:textColor="#dbf9f5"
+                    android:onClick="onClickDiseasesListener"
+                    android:layout_below="@+id/button_doctor"
+                    android:layout_alignStart="@+id/button_doctor"
+                    android:layout_marginTop="27dp" />
+
+                <Button
+                    android:id="@+id/button_medicine"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+
+                    android:layout_gravity="center"
+
+                    android:textSize="20dp"
+                    android:text="Medicine"
+                    android:background="#20a1a3"
+                    android:textColor="#dbf9f5"
+                    android:onClick="onClickMedicineListener"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/button_hospital" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/navigation_header">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

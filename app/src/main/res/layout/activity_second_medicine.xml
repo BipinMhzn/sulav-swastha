@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sulavswastha.sulavswastha.SecondActivityMedicine"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_amedicine"
+        android:background="@color/colorPrimary"
+        app:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+    <TextView
+        android:id="@+id/tvheadingdefs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:hint="Introduction"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvuses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Uses:"/>
+    <TextView
+        android:id="@+id/tvusesdef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:hint="Uses information"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvsideeffect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Side Effect:"
+        />
+    <TextView
+        android:id="@+id/tvsideeffectdefs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:hint="Side effect information"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvdosage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Dosage Information:"/>
+    <TextView
+        android:id="@+id/tvdosagedefs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:hint="Dosage details"
+        android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

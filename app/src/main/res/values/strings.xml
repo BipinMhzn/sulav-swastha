@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Sulav Swastha</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="diseases">
+        <item>Anthrax</item>
+        <item>Cushing Syndrome</item>
+        <item>Cystic Fibrosis</item>
+        <item>ACANTHAMOEBA KERATISIS</item>
+        <item>ADENOVIRUS</item>
+        <item>ADHD</item>
+        <item>ASTHMA</item>
+        <item>AUTISM SPECTRUM DISORDER</item>
+        <item>Achondroplasia</item>
+        <item>Acne</item>
+        <item>Addisons disease</item>
+        <item>Adult panic</item>
+        <item>Alcoholism</item>
+        <item>Allergies</item>
+        <item>Alzheimer disease</item>
+        <item>Anal fissure</item>
+        <item>Anemia</item>
+        <item>Anxiety disorders</item>
+        <item>Appendicitis</item>
+        <item>Arthritis</item>
+    </string-array>
+
+    <string-array name="medicines">
+        <item>Paracetamol</item>
+        <item>Pantoprazole</item>
+        <item>Aspirin</item>
+        <item>Ibuprofen</item>
+        <item>Penicillin</item>
+        <item>Azithromycin</item>
+        <item>Ciprofloxacin</item>
+        <item>Fluconazole</item>
+        <item>Tramadol</item>
+        <item>Ketorolac</item>
+        <item>Diazepam</item>
+        <item>Diclofenac</item>
+        <item>Metronidazole</item>
+        <item>Ampicilin</item>
+        <item>Amikacin</item>
+        <item>Gentamycin</item>
+        <item>Atropin</item>
+        <item>Adrenaline</item>
+        <item>Haloperidol</item>
+        <item>Calcium gluconate</item>
+        <item>Verapamil</item>
+        <item>Amlodipine</item>
+        <item>Chymoral forte</item>
+        <item>Bactolac</item>
+        <item>Sidenafil</item>
+        <item>Albendazole</item>
+        <item>Adenosine</item>
+        <item>Magnesium Sulfate</item>
+        <item>Dopamine</item>
+        <item>Dobutamine</item>
+        <item>Digoxin</item>
+        <item>Aciloc</item>
+        <item>Alprazolam</item>
+        <item>Atorvastatin</item>
+        <item>Rosuvastatin</item>
+        <item>Propanolol</item>
+        <item>Misfepristol</item>
+        <item>Misoprostal</item>
+        <item>Bisoprolol</item>
+        <item>Sodium Nitroprusside</item>
+        <item>Asthalin</item>
+        <item>Ipravent</item>
+        <item>Frusemide</item>
+    </string-array>
+
+</resources>

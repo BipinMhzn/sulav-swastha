@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:onClick="onClickHomeButton"/>
+
+
+    <item android:id="@+id/nav_blood_donors"
+        android:title="Blood Donors"
+        android:icon="@mipmap/heart_frequency"
+        android:onClick="onClickBloodDonorsListener"/>
+
+    <item android:id="@+id/nav_donate_blood"
+        android:title="Donate Blood"
+        android:icon="@mipmap/drop_of_liquid"
+        android:onClick="onClickDonateBloodListener"/>
+
+
+
+    <item android:id="@+id/nav_about_us"
+        android:title="About us"
+        android:icon="@mipmap/aboutus"
+        android:onClick="onClickAboutUsListener"/>
+
+
+
+</menu>

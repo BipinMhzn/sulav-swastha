@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_doctor"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginStart="22dp"
+        android:layout_alignTop="@+id/textView_name_doctor"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView_name_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="23dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView_doctor" />
+
+    <TextView
+        android:id="@+id/textView_specialized_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:layout_above="@+id/textView_phoneno_doctor"
+        android:layout_alignStart="@+id/textView_name_doctor" />
+
+    <TextView
+        android:id="@+id/textView_phoneno_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@+id/imageView_doctor"
+        android:layout_alignStart="@+id/textView_specialized_doctor" />
+
+</RelativeLayout>

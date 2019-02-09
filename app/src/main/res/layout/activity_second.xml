@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sulavswastha.sulavswastha.SecondActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_adisease"
+        android:background="@color/colorPrimary"
+        app:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+    <TextView
+        android:id="@+id/tvheadingdef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Heading definition"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvsymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Symptoms"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvsymptomsdef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Symptoms Definition"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvdiagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Diagnosis"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/tvdiagnosisdef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diagnosis Definition"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvprevention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Prevention"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvpreventiondef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prevention definition"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvtreatments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Treatments"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvtreatmentsdef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Treatments definition"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvriskfactors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Risk Factors"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/tvriskfactorsdef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Risk Factor definition"
+        android:textSize="18dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sulavswastha.sulavswastha">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/swastha"
+        android:label="Sulav Swastha"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hospital"
+            android:label="Hospital" />
+        <activity
+            android:name=".Doctor"
+            android:label="Doctor" />
+        <activity
+            android:name=".Medicine"
+            android:label="Medicine" />
+        <activity
+            android:name=".Disease"
+            android:label="Disease" />
+        <activity
+            android:name=".BloodDonors"
+            android:label="Blood Donors" />
+        <activity
+            android:name=".DonateBlood"
+            android:label="Donate Blood" />
+        <activity
+            android:name=".MedicineReminder"
+            android:label="Medicine Reminder" />
+        <activity
+            android:name=".News"
+            android:label="News" />
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".SecondActivityMedicine"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ba0000"
+        android:layout_weight="33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="first text"
+        android:id="@+id/textFirstName"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/textLastName"
+        android:layout_marginEnd="7dp" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ba0000"
+        android:layout_weight="33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="second text"
+        android:id="@+id/textLastName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="57dp" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:layout_weight="33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="third text"
+        android:id="@+id/textBloodGroup"
+        android:layout_below="@+id/textLastName"
+        android:layout_alignStart="@+id/textLastName" />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textBloodGroup"
+        android:layout_alignStart="@+id/textFirstName" />
+
+    <TextView
+        android:id="@+id/textPhoneNo"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginEnd="49dp"
+        android:layout_below="@+id/textBloodGroup"
+        android:layout_alignEnd="@+id/textLastName" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:layout_weight="33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group:"
+        android:layout_alignBaseline="@+id/textBloodGroup"
+        android:layout_alignBottom="@+id/textBloodGroup"
+        android:layout_alignStart="@+id/textAddress"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/drop_of_blood"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
